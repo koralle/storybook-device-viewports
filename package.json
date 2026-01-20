@@ -7,13 +7,6 @@
     "storybook",
     "viewport"
   ],
-  "devEngines": {
-    "packageManager": {
-      "name": "bun",
-      "version": ">=1",
-      "onFail": "error"
-    }
-  },
   "bugs": {
     "url": "https://github.com/koralle/storybook-device-viewports/issues"
   },
