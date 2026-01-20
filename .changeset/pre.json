@@ -5,6 +5,7 @@
     "storybook-device-viewports": "0.1.0"
   },
   "changesets": [
+    "all-dolls-cry",
     "fruity-heads-throw"
   ]
 }
