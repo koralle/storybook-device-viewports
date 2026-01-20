@@ -1,5 +1,11 @@
 # storybook-device-viewports
 
+## 0.1.1-preview.1
+
+### Patch Changes
+
+- [#16](https://github.com/koralle/storybook-device-viewports/pull/16) [`9166c60`](https://github.com/koralle/storybook-device-viewports/commit/9166c60fe5ef7357f1d881d7b6b11f64c180c318) Thanks [@koralle](https://github.com/koralle)! - Add Pixel 10
+
 ## 0.1.1-preview.0
 
 ### Patch Changes
