@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "preview",
+  "initialVersions": {
+    "storybook-device-viewports": "0.1.0"
+  },
+  "changesets": [
+    "fruity-heads-throw"
+  ]
+}
