@@ -31,5 +31,6 @@ jobs:
         with:
           publish: bun run release
           title: "Updated packages"
+          commit: "ci(changesets): updated packages"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
