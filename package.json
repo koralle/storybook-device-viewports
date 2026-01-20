@@ -51,7 +51,8 @@
     "build": "tsdown",
     "check": "biome check .",
     "check:fix": "biome check . --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.11",
