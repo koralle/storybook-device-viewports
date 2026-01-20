@@ -1,0 +1,70 @@
+{
+  "name": "storybook-device-viewports",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "koralle",
+  "keywords": [
+    "storybook",
+    "viewport"
+  ],
+  "devEngines": {
+    "packageManager": {
+      "name": "bun",
+      "version": ">=1",
+      "onFail": "error"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/koralle/storybook-device-viewports/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koralle/storybook-device-viewports.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "exports": {
+    "./": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    },
+    "./apple": {
+      "types": "./dist/apple/index.d.mts",
+      "default": "./dist/apple/index.mjs"
+    },
+    "./apple/mobile": {
+      "types": "./dist/apple/mobile.d.mts",
+      "default": "./dist/apple/mobile.mjs"
+    },
+    "./apple/tablet": {
+      "types": "./dist/apple/tablet.d.mts",
+      "default": "./dist/apple/tablet.mjs"
+    },
+    "./google": {
+      "types": "./dist/google/index.d.mts",
+      "default": "./dist/google/index.mjs"
+    },
+    "./google/mobile": {
+      "types": "./dist/google/mobile.d.mts",
+      "default": "./dist/google/mobile.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "check": "biome check .",
+    "check:fix": "biome check . --fix",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.11",
+    "@changesets/cli": "^2.29.8",
+    "tsdown": "^0.20.0-beta.1",
+    "typescript": "^5.9.3"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "storybook": "^10.1.11"
+  }
+}

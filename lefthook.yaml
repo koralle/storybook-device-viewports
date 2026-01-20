@@ -1,0 +1,31 @@
+pre-commit:
+  piped: true
+  jobs:
+    - name: Biome
+      glob:
+        # TypeScript
+        - "src/**/*.ts"
+        - "tsdown.config.ts"
+
+        # JSON
+        - "package.json"
+        - "biome.jsonc"
+        - "tsconfig.json"
+        - ".claude/settings.json"
+
+      run: |
+        bun biome check {staged_files} --fix
+      stage_fixed: true
+
+    - name: Typecheck
+      glob:
+        # TypeScript
+        - "src/**/*.ts"
+        - "tsdown.config.ts"
+
+        # JSON
+        - "tsconfig.json"
+      run: |
+        bun tsc --noEmit
+      stage_fixed: true
+
