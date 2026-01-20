@@ -1,5 +1,16 @@
 import type { ViewportMap } from "storybook/viewport";
 
+export const PIXEL_10_VIEWPORTS = {
+  pixel10: {
+    name: "Pixel 10",
+    styles: {
+      width: "412px",
+      height: "915px",
+    },
+    type: "mobile",
+  },
+} as const satisfies ViewportMap;
+
 export const PIXEL_9_VIEWPORTS = {
   pixel9: {
     name: "Pixel 9",
@@ -180,6 +191,7 @@ export const PIXEL_1_VIEWPORTS = {
 } as const satisfies ViewportMap;
 
 export const PIXEL_VIEWPORTS = {
+  ...PIXEL_10_VIEWPORTS,
   ...PIXEL_9_VIEWPORTS,
   ...PIXEL_8_VIEWPORTS,
   ...PIXEL_7_VIEWPORTS,

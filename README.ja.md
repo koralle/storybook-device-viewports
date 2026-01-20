@@ -89,6 +89,7 @@ const preview: Preview = {
 
 ### Google (Pixel)
 
+- Pixel 10
 - Pixel 9
 - Pixel 8 Pro / 8
 - Pixel 7 Pro / 7 / 7a
