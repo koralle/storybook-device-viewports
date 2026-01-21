@@ -1,5 +1,11 @@
 # storybook-device-viewports
 
+## 0.1.2
+
+### Patch Changes
+
+- [#24](https://github.com/koralle/storybook-device-viewports/pull/24) [`e65d695`](https://github.com/koralle/storybook-device-viewports/commit/e65d695b04904f5567aa2af4fdb9541b05fa9f35) Thanks [@koralle](https://github.com/koralle)! - fix(package): correct export path syntax
+
 ## 0.1.1
 
 ### Patch Changes
