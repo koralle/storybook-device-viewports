@@ -9,7 +9,7 @@ Apple（iPhone / iPad）とGoogle（Pixel）のデバイスに対応したプレ
 ## インストール
 
 ```bash
-bun add storybook-device-viewports
+pnpm add -D storybook-device-viewports
 ```
 
 ## 使い方

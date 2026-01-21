@@ -22,7 +22,7 @@ jobs:
       - name: Biome
         shell: bash
         run: |
-          bun run check
+          pnpm run check
 
   typecheck:
     runs-on: ubuntu-24.04
@@ -37,4 +37,4 @@ jobs:
       - name: Typecheck
         shell: bash
         run: |
-          bun run typecheck
+          pnpm run typecheck

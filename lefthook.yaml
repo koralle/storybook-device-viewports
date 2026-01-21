@@ -14,7 +14,7 @@ pre-commit:
         - ".claude/settings.json"
 
       run: |
-        bun biome check {staged_files} --fix
+        pnpm biome check {staged_files} --fix
       stage_fixed: true
 
     - name: Typecheck
@@ -26,6 +26,6 @@ pre-commit:
         # JSON
         - "tsconfig.json"
       run: |
-        bun tsc --noEmit
+        pnpm tsc --noEmit
       stage_fixed: true
 
