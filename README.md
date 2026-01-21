@@ -9,7 +9,7 @@ Includes predefined viewport settings for devices from Apple (iPhone / iPad) and
 ## Installation
 
 ```bash
-bun add storybook-device-viewports
+pnpm add -D storybook-device-viewports
 ```
 
 ## Usage
