@@ -1,5 +1,5 @@
 {
-  "mode": "pre",
+  "mode": "exit",
   "tag": "preview",
   "initialVersions": {
     "storybook-device-viewports": "0.1.0"
