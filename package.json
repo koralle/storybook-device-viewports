@@ -63,6 +63,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "storybook": "^10.1.11"
+    "storybook": "^10.2.4"
   }
 }
